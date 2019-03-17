@@ -1,0 +1,25 @@
+{
+  "name": "drafty",
+  "homepage": "http://8gb.github.io/onlinehtml",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "draftjs-to-html": "^0.8.4",
+    "html-to-draftjs": "^1.4.0",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-draft-wysiwyg": "^1.12.13",
+    "react-scripts": "1.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}
